@@ -1,13 +1,13 @@
 # Fibanocci-Series
-x=0
-y=1
+a=0
+b=1
 i=0
 l=int (input('enter length = ' ))
 while i<l:
     print(x)
-    z=x+y
-    x=y
-    y=z
+    c=a+b
+    a=b
+    b=c
     i=i+1
 
 if l<=0:
